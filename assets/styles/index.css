@@ -1,0 +1,20 @@
+body{
+    background-image: url(../media/fondo.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#parrafo{
+    width: 700px;
+    background-color: rgba(225, 225, 225, 0.8);
+    margin-left: 250px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#imagen1{
+    width: 350px;
+    margin-left: 350px;
+    margin-top: 60px;
+}
