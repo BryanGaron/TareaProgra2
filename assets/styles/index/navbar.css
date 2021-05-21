@@ -1,0 +1,44 @@
+.navbar_main{
+    background: rgb(167, 33, 134);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+}
+
+.menu{
+    display: flex;
+    margin-right: 40px;
+
+}
+
+.menu a, menu li{
+    color: rgb(255, 254, 254);
+    text-decoration: none;
+    list-style: none;
+    margin-right: 20px;
+    width: 140px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 12px;
+}
+
+.menu a:hover, menu li:hover{
+    background-color: rgb(225, 225, 225);
+    color: rgb(8, 8, 8);
+    font-size: 30px;
+}
+
+.logo_imagen:hover{
+    width: 85px;
+}
+
+.logo_imagen{
+    width: 75px;
+    margin-left: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
