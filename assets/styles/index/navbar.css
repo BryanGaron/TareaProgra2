@@ -42,3 +42,76 @@
     justify-content: space-around;
     align-items: center;
 }
+
+.imagenes{
+
+}
+
+/*EFECTO RISPONSIVE*/
+
+@media screen and (max-width: 900px){
+
+
+    .menu a, menu li{
+        width: 120px;
+    }
+
+    .logo_imagen{
+        width: 50px;
+        margin-left: 40px;
+    }
+
+    .imagenes{
+        width: 50px;
+    }
+
+
+    .menu{
+        margin-right: 25px;
+    }
+
+    .menu a, menu li{
+        margin-right: 10px;
+        width: 120px;
+        height: 30px;
+        font-size: 13px;
+    }
+
+    .logo_imagen:hover{
+        width: 60px;
+    }
+
+    .menu a:hover, menu li:hover{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 650px){
+    .menu a, menu li{
+        width: 100px;
+    }
+
+    .logo_imagen{
+        width: 40px;
+        margin-left: 30px;
+    }
+
+    .menu{
+        margin-right: 20px;
+    }
+
+    .menu a, menu li{
+        margin-right: 8px;
+        width: 108px;
+        height: 20px;
+        font-size: 10px;
+    }
+
+    .logo_imagen:hover{
+        width: 55px;
+    }
+
+    .menu a:hover, menu li:hover{
+        font-size: 18px;
+    }
+}
